@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #24212C;
+    overflow: auto;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: #3B3549;
+}
+
+.logo {
+    width: 50px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #2E293A;
+    padding: 0;
+}
+
+.lista li {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+.lista li a:hover {
+    background-color: #8A72CC;
+}
+
+.lista li a:active {
+    background-color: #6637E6;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 120px;
+}
+
+.container-2 .cont-2-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divtitulo,.divp,.divbotao {
+    display: flex;
+    justify-content: center;
+}
+
+
+.divtitulo h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.divp p {
+    color: #CFC7C7;
+}
+
+.botplanos {
+    margin-top: 7px;
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #050407;
+    padding: 0;
+    
+}
+
+.dentro {
+    width: 30px;
+    height: 30px;
+    background-color: #050407;
+    border-radius: 50px;
+    border: 2px solid#6637E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    transform: translate(-2px, -3px);
+    transition: 0.3s;
+
+}
+
+.g {
+    width: 20px
+}
+
+.dentrodep {
+    width: 30px;
+    height: 30px;
+    background-color: #050407;
+    border-radius: 50px;
+    border: 2px solid#6637E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    transform: translate(60px, -3px) rotate(180deg);
+}
+
+.mensal {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.anual {
+    margin-left: 20px;
+    margin-top: 12px;
+    color: white;
+}
+
+.container-3 {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fundo1 {
+    width: 300px;
+    height: 450px;
+    background-color: #24212C;
+    border: 5px solid #3B3549;
+    margin-bottom: 50px;
+    padding: 20px 20px 0 20px;
+    transition: 0.2s;
+}
+
+.fundo1:hover {
+    transform: scale(1.2);
+}
+
+.inicial {
+    color: #CFC7C7;
+    font-size: 18px;
+}
+
+.gratis {
+    color: #6637E6;
+    font-weight: nornmal;
+    font-size: 33px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.leg1 {
+    color: #CFC7C7;
+    margin-top: 10px;
+}
+
+.beneficios {
+    margin-top: 20px;
+    padding: 0 0 0 20px;
+}
+
+.cvisto {
+    list-style-image: url(img/visto.png);
+}
+
+.svisto {
+    list-style: none;
+}
+
+.beneficios li {
+    color: white;
+    margin-top: 7px;
+}
+
+.assinar1 {
+    width: 250px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #6637E6;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.assinar1:hover {
+    background-color: #402491;
+    color: #8d8d8d;
+}
+
+.assinar1:active {
+    background-color: #8A72CC;
+    color: white;
+}
+
+.valor {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mes {
+    color: #6637E6;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 7px;
+}
+
+.recomendado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6637E6;
+    width: 299.5px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-22.5px, -62px);
+    color: white;
+}
+
+.fundo2 {
+    width: 300px;
+    height: 450px;
+    background-color: #24212C;
+    border: 3px solid #6637E6;
+    margin-bottom: 50px;
+    padding: 20px 20px 0 20px;
+    transition: 0.2s;
+}
+
+.fundo2:hover {
+    transform: scale(1.2);
+}
